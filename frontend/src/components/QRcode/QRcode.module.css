@@ -1,0 +1,39 @@
+.profileBox{
+    background: linear-gradient( #feffff, #6acda5 );;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.userProfile{
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 0.75rem;
+}
+
+.profileBox>h1{
+    padding: 2rem;
+}
+
+.userProfile>h2{
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.scanQr{
+    text-align: center;
+    padding: 1rem;
+}
+
+.head{
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+}
